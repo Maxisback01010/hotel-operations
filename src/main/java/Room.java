@@ -8,8 +8,19 @@ public class Room {
         this.price = price;
         this.occupied = occupied;
         this.dirty = dirty;
+        public int getnumberOfBeds() {
+            return numberOfBeds;
+        }
+        public double getprice(){
+            return price;
+        }
+        public boolean isoccupied(){
+            return occupied;
+        }
+        public boolean isdirty(){
+            return dirty;
+        }
     }
-
 
 
 
