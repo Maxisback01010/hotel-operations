@@ -20,6 +20,9 @@ public class Room {
         public boolean isdirty(){
             return dirty;
         }
+        public boolean isAvailable(){
+            return !occupied && !dirty;
+        }
     }
 
 
